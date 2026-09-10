@@ -1,0 +1,94 @@
+/* Pagine interne: stessa identità della home, più spazio alla lettura. */
+.inner-page main{background:var(--paper);color:var(--ink);padding-bottom:80px}
+.page-heading{padding-top:45px;padding-bottom:48px;border-bottom:1px solid #cccfc2}
+.breadcrumbs{display:flex;gap:12px;color:#747b6d;font-size:11px;margin-bottom:37px;flex-wrap:wrap}
+.breadcrumbs a:hover{text-decoration:underline}
+.page-heading>.eyebrow{color:var(--red);font-size:9px;margin-bottom:18px}
+.page-heading h1{font-size:clamp(44px,6vw,80px);text-transform:uppercase;max-width:1000px;overflow-wrap:break-word}
+.page-intro{font-size:16px;line-height:1.85;color:#676e61;max-width:750px;margin-top:24px}
+.page-index{display:flex;gap:10px 24px;flex-wrap:wrap;margin-top:30px;font-size:11px;font-weight:700}
+.page-index a{border-bottom:1px solid #bcc2b2;padding-bottom:5px}
+.page-content{padding-top:45px}
+.page-content>section,.page-content>details{margin-bottom:64px}
+.page-content h2{font-size:34px;text-transform:uppercase;margin:0 0 24px;scroll-margin-top:105px}
+.page-content h3{font-size:23px;line-height:1.25;margin:32px 0 16px;text-transform:uppercase}
+.page-content p{font-size:15px;line-height:1.95;color:#555e4e;margin:0 0 18px;max-width:940px}
+.page-content p a,.page-content li a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.page-content ul{padding-left:22px;color:#555e4e}
+.page-content li{margin-bottom:8px;font-size:14px;line-height:1.9}
+.page-content .clean{list-style:none;padding:0}
+.page-content .clean>li{padding-left:18px;position:relative}
+.page-content .clean>li:before{content:'—';position:absolute;left:0;color:var(--red)}
+.page-content img{height:auto;max-width:100%}
+.page-content .cols{display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start}
+.page-content .cols>div{flex:1 1 300px;min-width:0}
+.page-content .cols>div:first-child:has(>figure:only-child){flex:0 1 290px}
+.page-content .cols h2{margin-top:0}
+.page-content .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:28px}
+.page-content .card{display:block;border-bottom:1px solid #c4cabc;background:transparent;color:var(--ink);overflow:hidden}
+.page-content .card>img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.65)}
+.page-content .card.person>img{aspect-ratio:3/4;object-position:top}
+.page-content .card-body{padding:23px 0}
+.page-content .card h3{font-size:25px;margin:0 0 13px}
+.page-content .card p{font-size:13px;line-height:1.8;margin-bottom:0}
+.page-content .card:hover h3{color:var(--red)}
+.page-content .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:22px;margin:30px 0}
+.page-content .gallery img{width:100%;height:280px;object-fit:cover;filter:saturate(.8)}
+.page-content figure.framed{background:#e8e7de;padding:0;margin:20px 0 26px;max-width:100%}
+.page-content .framed figcaption{padding:10px 15px;font-size:12px;color:#65715c}
+.page-content .panel,.page-content .contact-box{padding:26px;border-left:3px solid var(--red);background:#e6e6da;margin-bottom:25px}
+.page-content .pdf-link{display:flex;justify-content:space-between;gap:20px;padding:18px 22px;border:1px solid #bdc6b3;background:#e9eadd;margin:12px 0;font-size:14px;font-weight:700}
+.page-content .pdf-link:hover{border-color:var(--red)}
+.page-content .pdf-link:after{content:'↗';color:var(--red)}
+.page-content .btn{display:inline-block;background:var(--ink);color:var(--paper);font-size:12px;font-weight:700;padding:16px 22px;margin-top:10px}
+.page-content .tile{position:relative;min-height:260px;display:flex;align-items:end;padding:24px;background:var(--ink);color:var(--paper);isolation:isolate;overflow:hidden}
+.page-content .tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45;z-index:-1;transition:opacity .2s,transform .3s}
+.page-content .tile span{font-family:var(--display);font-size:30px;line-height:1.2;text-transform:uppercase}
+.page-content .tile:hover img{opacity:.7;transform:scale(1.04)}
+.page-content .video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:24px}
+.page-content .video-grid .v{position:relative;aspect-ratio:16/9;background:#121612}
+.page-content .video-grid iframe,.page-content .video-grid video{width:100%;height:100%;position:absolute;inset:0;border:0}
+.page-content .video-grid video{object-fit:contain}
+.archive-notice{border:1px solid #b8c1aa;border-left:3px solid var(--red);padding:22px 25px;background:#e6e9dc;margin-bottom:40px}
+.archive-notice strong{font-size:13px;display:block;margin-bottom:8px}
+.page-content .archive-notice p{font-size:13px;line-height:1.8;margin:0}
+.course-overview{display:grid;grid-template-columns:1.05fr 1fr;gap:60px;align-items:start}
+.course-overview .eyebrow{color:var(--red);font-size:9px;margin-bottom:20px}
+.course-overview .lead{font-size:18px;line-height:1.8}
+.course-feature img{width:100%;height:470px;object-fit:cover}
+.course-feature figcaption{font-size:10px;letter-spacing:.4px;color:#738065;margin-top:12px}
+.course-actions{display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin-top:28px}
+.reading-more{padding:25px 0;border-top:1px solid #bcc6b0;border-bottom:1px solid #bcc6b0}
+.reading-more>summary{font-family:var(--display);font-size:26px;display:flex;align-items:center;justify-content:space-between;gap:20px;cursor:pointer;list-style:none}
+.reading-more>summary::-webkit-details-marker{display:none}
+.reading-more>summary>span{font-family:var(--body);font-size:28px}
+.reading-more[open]>summary{margin-bottom:35px}
+.reading-more[open]>summary>span{transform:rotate(45deg)}
+.reading-more .gallery{margin-top:0}
+.full-schedule{max-width:880px}
+.full-schedule .day-tabs button{font-size:14px}
+.page-content .lessons{list-style:none;padding:0;margin:0}
+.page-content .lessons li{margin:0;font-size:14px}
+.page-content .lessons strong{font-size:16px}
+.page-content .lessons time{min-width:140px;font-size:13px}
+.archive-images{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:start}
+.section-links{display:flex;flex-wrap:wrap;gap:15px 35px;border-top:1px solid #c0c7b4;padding-top:25px;margin-top:45px;font-size:12px;font-weight:700}
+.page-invitation{margin-top:65px;background:#e1e5d7;padding:40px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.page-invitation .eyebrow{color:var(--red);font-size:9px}
+.page-invitation h2{font-size:32px;text-transform:uppercase;margin:12px 0}
+.page-invitation p:not(.eyebrow){font-size:14px;color:#646f57}
+.page-invitation .button{white-space:nowrap}
+/* Cards imported from the home retain their own rhythm. */
+.page-content .course-title h3{margin:0;font-size:29px}
+.page-content .course-card p{font-size:13px;line-height:1.9;min-height:100px;margin:0}
+.page-content .course-photo img{height:100%;object-fit:cover}
+.page-content .intro-art-mark img{height:auto;object-fit:contain}
+.page-content .course-photo.intro-art{background:#d6d9c9}
+.page-content:has(img[src*="gradi-"]) .framed{max-width:100%!important;background:white;padding:15px;border:1px solid #d5d9cb}
+@media(max-width:1000px){.course-overview{gap:35px}.course-feature img{height:400px}.page-invitation{align-items:flex-start;flex-direction:column}}
+@media(max-width:700px){.page-heading{padding-top:28px;padding-bottom:32px}.breadcrumbs{margin-bottom:28px}.page-heading h1{font-size:48px}.page-intro{font-size:14px}.page-content{padding-top:30px}.page-content>section{margin-bottom:45px}.page-content h2{font-size:29px}.page-content p{font-size:14px;line-height:1.85}.page-content .gallery img{height:250px}.course-overview{grid-template-columns:1fr;gap:30px}.course-feature img{height:320px}.course-overview .lead{font-size:16px}.page-invitation{padding:28px 22px;margin-top:45px}.page-invitation h2{font-size:28px}.page-invitation .button{white-space:normal}.archive-images{grid-template-columns:1fr}.page-index{gap:14px 20px}.page-content .lessons time{min-width:85px;font-size:10px}.page-content .lessons strong{font-size:13px}.page-content .course-title h3{font-size:24px}.page-content .course-card p{font-size:12px;min-height:125px}.page-content .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px}.page-content .card h3{font-size:23px}.page-content .card p{font-size:12px}.page-content .tile{padding:15px;min-height:210px}.page-content .tile span{font-size:24px}.page-content .cols{gap:24px}.page-content .panel{padding:20px}.archive-notice{padding:18px}.reading-more>summary{font-size:23px}}
+@media(max-width:400px){.page-heading h1{font-size:40px}.page-content .grid{grid-template-columns:1fr}.page-content .course-title h3{font-size:20px}.page-content .course-card p{min-height:155px}.page-content .lessons{min-height:385px}.page-content .lessons li{gap:12px}.page-content .lessons strong{font-size:12px}.page-content .lessons time{font-size:9px;min-width:78px}.page-invitation h2{font-size:25px}}
+.inner-page[data-page="copia-di-video"] .gallery{display:block;columns:3 250px;column-gap:24px}
+.inner-page[data-page="copia-di-video"] .gallery a{display:block;break-inside:avoid;margin-bottom:24px}
+.inner-page[data-page="copia-di-video"] .gallery img{height:auto;filter:none}
+.page-content>section>p{max-width:78ch}
