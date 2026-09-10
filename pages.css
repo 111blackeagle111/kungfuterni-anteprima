@@ -39,7 +39,7 @@
 .page-content .panel,.page-content .contact-box{padding:26px;border-left:3px solid var(--red);background:#e6e6da;margin-bottom:25px}
 .page-content .pdf-link{display:flex;justify-content:space-between;gap:20px;padding:18px 22px;border:1px solid #bdc6b3;background:#e9eadd;margin:12px 0;font-size:14px;font-weight:700}
 .page-content .pdf-link:hover{border-color:var(--red)}
-.page-content .pdf-link:after{content:'↗';color:var(--red)}
+
 .page-content .btn{display:inline-block;background:var(--ink);color:var(--paper);font-size:12px;font-weight:700;padding:16px 22px;margin-top:10px}
 .page-content .tile{position:relative;min-height:260px;display:flex;align-items:end;padding:24px;background:var(--ink);color:var(--paper);isolation:isolate;overflow:hidden}
 .page-content .tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45;z-index:-1;transition:opacity .2s,transform .3s}
