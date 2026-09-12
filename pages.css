@@ -96,3 +96,7 @@
 /* Preserve the full framing of Luca Primavera's landscape and portrait photos. */
 .inner-page[data-page="shifu-luca-primavera"] .gallery{align-items:start}
 .inner-page[data-page="shifu-luca-primavera"] .gallery img{height:auto;object-fit:contain}
+
+/* Let news copy use the available column instead of an artificial text measure. */
+.inner-page[data-page="news-e-rassegna-stampa"] .page-content p,
+.inner-page[data-page="news-e-rassegna-stampa"] .page-intro{max-width:none}
