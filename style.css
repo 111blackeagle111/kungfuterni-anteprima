@@ -1251,3 +1251,23 @@ main p{max-width:none}
 .cms-news-entry{margin-bottom:60px;scroll-margin-top:110px}
 .cms-news-image{display:block;width:auto;max-width:100%;max-height:650px;height:auto;object-fit:contain;margin:24px 0}
 .news-load-notice{grid-column:1/-1}
+
+/* Supplied photos keep their complete frame, including on hover and mobile. */
+main img.photo-full{object-fit:contain!important;object-position:center!important;transform:none!important;filter:none!important}
+main .course-photo{background:#e3e0d7}
+main .course-photo:after{background:none}
+main .master-photo{height:auto}
+main .master-photo img.photo-full,main .life-grid img.photo-full,main .manifesto-photo img.photo-full{display:block;width:100%;height:auto}
+main .manifesto-photo{min-height:0;display:flex;align-items:center;background:#171918}
+.page-content .gallery.new-gallery{display:block;columns:3 250px;column-gap:24px}
+.page-content .gallery.new-gallery a{display:block;break-inside:avoid;margin-bottom:24px}
+.page-content .gallery.new-gallery img.photo-full{display:block;width:100%;height:auto;max-height:none}
+.page-content .course-feature img.photo-full,.page-content .card img.photo-full{height:auto;aspect-ratio:auto}
+@media(max-width:700px){.page-content .gallery.new-gallery{columns:2 145px;column-gap:14px}.page-content .gallery.new-gallery a{margin-bottom:14px}}
+/* Keep the hero photograph separate from the title so neither obscures the other. */
+.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;height:auto;min-height:0;padding:48px max(24px,4vw);gap:32px}
+.hero .hero-photo{position:static;grid-column:2;grid-row:1;width:100%;height:auto;max-width:100%;z-index:auto;opacity:1}
+.hero .hero-content{grid-column:1;grid-row:1;width:100%;padding:0;margin:0}
+.hero .hero-shade,.hero .hero-scroll,.hero .hero-caption{display:none}
+.hero h1{font-size:clamp(48px,6vw,100px)}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding:32px 24px;gap:32px}.hero .hero-photo{grid-column:1;grid-row:2}.hero h1{font-size:clamp(44px,10vw,76px)}}

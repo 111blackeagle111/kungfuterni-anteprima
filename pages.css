@@ -97,4 +97,15 @@
 .inner-page[data-page="shifu-luca-primavera"] .gallery{align-items:start}
 .inner-page[data-page="shifu-luca-primavera"] .gallery img{height:auto;object-fit:contain}
 
-
+/* Supplied photos keep their complete frame, including on hover and mobile. */
+main img.photo-full{object-fit:contain!important;object-position:center!important;transform:none!important;filter:none!important}
+main .course-photo{background:#e3e0d7}
+main .course-photo:after{background:none}
+main .master-photo{height:auto}
+main .master-photo img.photo-full,main .life-grid img.photo-full,main .manifesto-photo img.photo-full{display:block;width:100%;height:auto}
+main .manifesto-photo{min-height:0;display:flex;align-items:center;background:#171918}
+.page-content .gallery.new-gallery{display:block;columns:3 250px;column-gap:24px}
+.page-content .gallery.new-gallery a{display:block;break-inside:avoid;margin-bottom:24px}
+.page-content .gallery.new-gallery img.photo-full{display:block;width:100%;height:auto;max-height:none}
+.page-content .course-feature img.photo-full,.page-content .card img.photo-full{height:auto;aspect-ratio:auto}
+@media(max-width:700px){.page-content .gallery.new-gallery{columns:2 145px;column-gap:14px}.page-content .gallery.new-gallery a{margin-bottom:14px}}
