@@ -1248,3 +1248,6 @@
 /* Paragraphs use their layout column; line wrapping follows the screen width. */
 main p{max-width:none}
 .hero .hero-copy,.course-card p,.news-intro{max-width:none}
+.cms-news-entry{margin-bottom:60px;scroll-margin-top:110px}
+.cms-news-image{display:block;width:auto;max-width:100%;max-height:650px;height:auto;object-fit:contain;margin:24px 0}
+.news-load-notice{grid-column:1/-1}

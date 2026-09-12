@@ -1,0 +1,26 @@
+[
+  {
+    "id": "stagione-2026",
+    "title": "Inizia la stagione 2026/2027",
+    "date": "2026-09-14",
+    "category": "News",
+    "published": true,
+    "summary": "Dal 14 settembre ripartono i corsi alla Palestra Privilege.",
+    "body": "Dal 14 settembre 2026 al 31 maggio 2027 ci ritroviamo alla Palestra Privilege, in via Arnaldo Maria Angelini 8 a Terni.\n\nPropedeutica marziale, Kung Fu Kids, Sanda, Kung Fu adulti e Taiji Chen, insieme agli allenamenti di agonismo e alle attività del sabato.",
+    "location": "Palestra Privilege, Terni",
+    "image": "",
+    "link": "copia-di-sanda.html"
+  },
+  {
+    "id": "eventi-2026",
+    "title": "Eventi in programma 2026/2027",
+    "date": "2026-09-12",
+    "category": "Evento",
+    "published": true,
+    "summary": "Gare, esami e stage nel planning completo della scuola.",
+    "body": "Il planning raccoglie gare, esami di passaggio di grado, stage e appuntamenti dell’anno. Consulta date, orari e sedi nella locandina e contatta i maestri per partecipare.",
+    "location": "",
+    "image": "assets/planning-2026-2027.jpg",
+    "link": "assets/planning-2026-2027.jpg"
+  }
+]

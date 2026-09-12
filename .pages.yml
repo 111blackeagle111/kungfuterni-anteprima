@@ -1,0 +1,88 @@
+{
+  "media": {
+    "input": "assets/uploads",
+    "output": "assets/uploads",
+    "extensions": [
+      "jpg",
+      "jpeg",
+      "png",
+      "webp",
+      "pdf"
+    ]
+  },
+  "content": [
+    {
+      "name": "news",
+      "label": "News ed eventi",
+      "type": "file",
+      "path": "data/news.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "id",
+          "label": "Identificativo (es. stage-ottobre-2026)",
+          "type": "string",
+          "required": true,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        {
+          "name": "title",
+          "label": "Titolo",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "Data della notizia o evento",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "category",
+          "label": "Categoria",
+          "type": "select",
+          "options": {
+            "values": [
+              "News",
+              "Evento"
+            ]
+          }
+        },
+        {
+          "name": "published",
+          "label": "Mostra sul sito",
+          "type": "boolean",
+          "description": "Se disattivato non compare sul sito. Il repository è pubblico: non inserire informazioni riservate."
+        },
+        {
+          "name": "summary",
+          "label": "Testo breve per la home",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "body",
+          "label": "Testo completo",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "location",
+          "label": "Luogo (facoltativo)",
+          "type": "string"
+        },
+        {
+          "name": "image",
+          "label": "Foto o locandina (facoltativa)",
+          "type": "image"
+        },
+        {
+          "name": "link",
+          "label": "Link di approfondimento o documento (facoltativo)",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
