@@ -1244,3 +1244,7 @@
 .news-action{margin-top:auto;font-size:12px;font-weight:800;border-bottom:1px solid currentColor;padding-bottom:5px}
 @media(min-width:801px) and (max-width:1100px){.header{gap:14px;padding-left:20px;padding-right:20px}.header nav{gap:14px}.header nav>a{font-size:10px}.header .nav-cta{padding:18px 14px}}
 @media(max-width:700px){.news-grid{grid-template-columns:1fr;gap:20px}.news-card{padding:25px}.news-card h3{font-size:28px}}
+
+/* Paragraphs use their layout column; line wrapping follows the screen width. */
+main p{max-width:none}
+.hero .hero-copy,.course-card p,.news-intro{max-width:none}

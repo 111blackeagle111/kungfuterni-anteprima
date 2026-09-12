@@ -5,14 +5,14 @@
 .breadcrumbs a:hover{text-decoration:underline}
 .page-heading>.eyebrow{color:var(--red);font-size:9px;margin-bottom:18px}
 .page-heading h1{font-size:clamp(44px,6vw,80px);text-transform:uppercase;max-width:1000px;overflow-wrap:break-word}
-.page-intro{font-size:16px;line-height:1.85;color:#676e61;max-width:750px;margin-top:24px}
+.page-intro{font-size:16px;line-height:1.85;color:#676e61;margin-top:24px}
 .page-index{display:flex;gap:10px 24px;flex-wrap:wrap;margin-top:30px;font-size:11px;font-weight:700}
 .page-index a{border-bottom:1px solid #bcc2b2;padding-bottom:5px}
 .page-content{padding-top:45px}
 .page-content>section,.page-content>details{margin-bottom:64px}
 .page-content h2{font-size:34px;text-transform:uppercase;margin:0 0 24px;scroll-margin-top:105px}
 .page-content h3{font-size:23px;line-height:1.25;margin:32px 0 16px;text-transform:uppercase}
-.page-content p{font-size:15px;line-height:1.95;color:#555e4e;margin:0 0 18px;max-width:940px}
+.page-content p{font-size:15px;line-height:1.95;color:#555e4e;margin:0 0 18px;}
 .page-content p a,.page-content li a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .page-content ul{padding-left:22px;color:#555e4e}
 .page-content li{margin-bottom:8px;font-size:14px;line-height:1.9}
@@ -91,12 +91,10 @@
 .inner-page[data-page="copia-di-video"] .gallery{display:block;columns:3 250px;column-gap:24px}
 .inner-page[data-page="copia-di-video"] .gallery a{display:block;break-inside:avoid;margin-bottom:24px}
 .inner-page[data-page="copia-di-video"] .gallery img{height:auto;filter:none}
-.page-content>section>p{max-width:78ch}
+
 
 /* Preserve the full framing of Luca Primavera's landscape and portrait photos. */
 .inner-page[data-page="shifu-luca-primavera"] .gallery{align-items:start}
 .inner-page[data-page="shifu-luca-primavera"] .gallery img{height:auto;object-fit:contain}
 
-/* Let news copy use the available column instead of an artificial text measure. */
-.inner-page[data-page="news-e-rassegna-stampa"] .page-content p,
-.inner-page[data-page="news-e-rassegna-stampa"] .page-intro{max-width:none}
+
