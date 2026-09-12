@@ -8,7 +8,6 @@
     "summary": "Dal 14 settembre ripartono i corsi alla Palestra Privilege.",
     "body": "Dal 14 settembre 2026 al 31 maggio 2027 ci ritroviamo alla Palestra Privilege, in via Arnaldo Maria Angelini 8 a Terni.\n\nPropedeutica marziale, Kung Fu Kids, Sanda, Kung Fu adulti e Taiji Chen, insieme agli allenamenti di agonismo e alle attività del sabato.",
     "location": "Palestra Privilege, Terni",
-    "image": "",
     "link": "copia-di-sanda.html"
   },
   {
@@ -19,8 +18,17 @@
     "published": true,
     "summary": "Gare, esami e stage nel planning completo della scuola.",
     "body": "Il planning raccoglie gare, esami di passaggio di grado, stage e appuntamenti dell’anno. Consulta date, orari e sedi nella locandina e contatta i maestri per partecipare.",
-    "location": "",
     "image": "assets/planning-2026-2027.jpg",
     "link": "assets/planning-2026-2027.jpg"
+  },
+  {
+    "id": "stage-bastone-anatra-mandarina-2027",
+    "title": "stage di bastone dell'anatra mandarina 2027",
+    "date": "2027-02-14",
+    "category": "Evento",
+    "published": true,
+    "summary": "termine \"stage di bastone dell'anatra mandarina\" si riferisce a un seminario di formazione (o stage) incentrato sullo studio del bastone corto dello stile dell'Anatra Mandarina (Yuanyang Bang / 鸳鸯棒), una particolare e rara disciplina all'interno delle arti marziali tradizionali cinesi (Wushu - Kung Fu)",
+    "body": "Che cos'è lo stile dell'Anatra Mandarina?L'origine del nome: Nella cultura tradizionale cinese, le anatre mandarine (Yuanyang) simboleggiano l'unione inscindibile, la fedeltà e la coordinazione di coppia. Nelle arti marziali, questo concetto si traduce in uno stile caratterizzato dall'uso combinato e simmetrico degli arti (o delle armi), dove la destra e la sinistra lavorano in perfetta armonia culmine di attacco e difesa simultanei. [1] (https://terreborromeo.it/animali/anatra-mandarina), [2] (https://terreborromeo.it/animali/anatra-mandarina)Il bastone corto: L'utilizzo del bastone corto in questo stile si basa su movimenti rapidi, cambi di impugnatura improvvisi, leve e colpi a corta distanza, ideali per la difesa personale.",
+    "image": "assets/uploads/Immagine Codex 12 set 2026, 14_14_33.png"
   }
 ]
