@@ -1231,3 +1231,16 @@
 
 /* Vector arrows remain consistent on mobile, including iOS. */
 .arrow-icon{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.12em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* News and events are reachable from the main navigation and home. */
+.news-home{border-top:1px solid #d4d1ca}
+.news-intro{max-width:560px;margin:20px 0 35px;color:#62665f;line-height:1.8}
+.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.news-card{display:flex;flex-direction:column;align-items:flex-start;padding:30px 24px;border-top:2px solid var(--red);background:#e7e4dc;color:var(--ink);text-decoration:none;transition:background .2s}
+.news-card:hover{background:#ddd9cf}
+.news-card h3{font-family:var(--display);font-size:clamp(24px,2.5vw,34px);line-height:1.2;margin:15px 0}
+.news-card p{font-size:14px;line-height:1.8;margin:0 0 26px}
+.news-card .eyebrow{font-size:10px;line-height:1.7}
+.news-action{margin-top:auto;font-size:12px;font-weight:800;border-bottom:1px solid currentColor;padding-bottom:5px}
+@media(min-width:801px) and (max-width:1100px){.header{gap:14px;padding-left:20px;padding-right:20px}.header nav{gap:14px}.header nav>a{font-size:10px}.header .nav-cta{padding:18px 14px}}
+@media(max-width:700px){.news-grid{grid-template-columns:1fr;gap:20px}.news-card{padding:25px}.news-card h3{font-size:28px}}
