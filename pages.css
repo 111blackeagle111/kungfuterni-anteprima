@@ -92,3 +92,7 @@
 .inner-page[data-page="copia-di-video"] .gallery a{display:block;break-inside:avoid;margin-bottom:24px}
 .inner-page[data-page="copia-di-video"] .gallery img{height:auto;filter:none}
 .page-content>section>p{max-width:78ch}
+
+/* Preserve the full framing of Luca Primavera's landscape and portrait photos. */
+.inner-page[data-page="shifu-luca-primavera"] .gallery{align-items:start}
+.inner-page[data-page="shifu-luca-primavera"] .gallery img{height:auto;object-fit:contain}
